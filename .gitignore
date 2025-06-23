@@ -1,0 +1,32 @@
+```
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/logs/*.log
+.env
+.env.backup
+.env.production
+Homestead.json
+Homestead.yaml
+Vagrantfile
+.phpunit.result.cache
+composer.lock
+package-lock.json
+
+# IDE y Editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de Compilación y Caché
+/public/build/
+/public/hot
+/public/mix-manifest.json
+```

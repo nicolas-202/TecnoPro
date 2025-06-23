@@ -1,0 +1,69 @@
+.config-container {
+    max-width: 7xl;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.config-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    color: #1e40af;
+    margin-bottom: 2rem;
+    border-bottom-width: 2px;
+    border-bottom-color: #1e40af;
+    padding-bottom: 0.5rem;
+}
+
+.config-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .config-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.config-card {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.config-card:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.config-card .icon-circle {
+    width: 4rem;
+    height: 4rem;
+    background-color: #dbeafe;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.config-card .icon-circle svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #1e40af;
+}
+
+.config-card .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #374151;
+}
